@@ -7,7 +7,9 @@
 </head>
 <body>
     <h2>Registration Form</h2>
+    
     <form action="register_process.php" method="post">
+
         First Name: <input type="text" name="firstname" required><br>
         Last Name: <input type="text" name="lastname" required><br>
         Gender: 
