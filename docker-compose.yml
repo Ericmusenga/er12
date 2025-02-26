@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  24rp14112:
+    build: .
+    ports:
+      - "8084:80"
+    volumes:
+     - /var/www/html
